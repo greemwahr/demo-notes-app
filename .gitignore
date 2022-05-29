@@ -36,6 +36,7 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+.build/
 
 # Dependency directories
 node_modules/
@@ -93,6 +94,7 @@ dist
 
 # Serverless directories
 .serverless/
+.sst/
 
 # FuseBox cache
 .fusebox/
@@ -102,3 +104,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# VScode local settings
+.vscode/
